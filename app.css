@@ -97,7 +97,7 @@
     color: black;
     padding: 20px 30px;
     border-radius: 24px;
-    display: unset;
+    display: none;
 }
 
 @media (max-width: 480px) {
