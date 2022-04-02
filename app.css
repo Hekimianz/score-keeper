@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main-container {
+    background-color: #8D8573;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#score-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#header {
+    font-size: 2.1em;
+    margin-bottom: 20px;
+    color: #2c2b2d;
+}
+
+.player-container {
+    flex: 1;
+}
+
+.player-heading {
+    margin: 225px 0 100px 0;
+    font-size: 2em;
+}
+
+#player1 {
+    color: #ff0400;
+}
+
+#player1-B {
+    background-color: #ffabaa;
+    border: none;
+}
+
+#player2-B {
+    background-color: #9c9cff;
+    border: none;
+}
+
+#player2 {
+    color: #0000ff;
+}
+
+#resetBtn {
+    background-color: #B30300;
+    color: #fee2e2;
+    border: none;
+}
+
+.player-score {
+    font-size: 5em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.playerBtn {
+    font-size: 2em;
+    margin: 10px 0;
+    padding: 10px 100px;
+    border-radius: 12px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#round {
+    width: 30px;
+    height: 22.5px;
+    border-radius: 12px;
+    margin-left: 5px;
+
+}
+
+#round-select {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1b191c;
+}
+
+#winner {
+    position: fixed;
+    top: 31%;
+    font-size: 6.5em;
+    background-color: #ffabaa;
+    color: black;
+    padding: 20px 30px;
+    border-radius: 24px;
+    display: none;
+}
